@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+html,body,#app {
+  height: 100%;
+  width: 100%;
+}
+
+.stretch {
+  height: calc(100% - 56px);
+  width: 100%;
+}
+
+.display-photo {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+}
+
+.to-delete {
+	border: 3px solid red;
+}
+
+.navbar {
+  background-color: 'blue';
+}
